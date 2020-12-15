@@ -16,7 +16,7 @@ The tools I used was:\
 -NumPy\
 -Pandas\
 -Schkit-learn\
--Jupyrer
+-Jupyter
 
 Within Sckit-learn:\
 -LinearRegression\
@@ -40,7 +40,7 @@ The first model I used was Linear Regression model which only brought 18% accura
 
 ![](LinearRegression.PNG)
 
-The second model I used was Random Forst Regression which brought me to 57% accuracy.
+The second model I used was Random Forest Regression which brought me to 57% accuracy.
 
 ![](RandomForestRegressor.PNG)
 
