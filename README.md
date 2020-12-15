@@ -9,7 +9,7 @@ The source of this dataset was found in [kaggle](https://www.kaggle.com/gregorut
 
 ![](GlobalSales.PNG)
 
-The data has over 16000 rows of videogames filled with 11 columns which contain the characistics of the games such as rank, name, platform, year, genre, publisher, NA_Sales, EU sales, JP_sales, Other_sales, Global_Sales. For the model I decided that I would focus on four columns that the model would train on which were name, platform, year, and genre. The information I would want the model to predict is the Global_Sales of the videogame.  
+The data has over 16000 rows of videogames filled with 11 columns which contain the characistics of the games such as rank, name, platform, year, genre, publisher, NA_Sales, EU sales, JP_sales, Other_sales, Global_Sales. For the model I decided that I would focus on four columns that the model would train on which were name, platform, year, and genre. The information I would want the model to predict is the Global_Sales of the videogame. Even though there were other columns like rank, NA_Sales, and more, I felt like only training those 4 columns as I fear that too much data will hinder the model instead of making it better.
 ## Methods
 
 The tools I used was:\
