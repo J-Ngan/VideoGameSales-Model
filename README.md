@@ -47,18 +47,21 @@ The third model I used was KNeighbors Regression that made me have a negative 19
 
 ![](KneighborsRegressor.PNG)
 
-The fourth model I used was Linear Regression model but with Polynomial Features. Instead of giving me an accuracy it gave me a memory error due to the model. I believe that the amount of data found in the rows and columns were way too much for the data to withstand.
+The fourth model I used was Linear Regression model but with Polynomial Features. The main problem with the Polynomial Features is that it would not run at all due to the memory problem of the model, this was due to the amount of columns the pandas.dummy caused. 
 
-![](PolynomialFeatures.PNG)
 ![](MemoryError.PNG)
+
+It only took in the first 1000 rows of the dataset and it had a success of 77%. Now while 77% was reliable, it came at the cost of cutting off majoirty of the data which was a problem.
+
+![](PolynomialFeatures..PNG)
 
 ## Discussion
 Of couse I tested various other models in sklearn on the dataset but I decided to chose those 4 models to highlight my various results. Now judging the models, the accuracy was all over the place and the best model I got was the Random Forst Regression model with only a 57% accuracy. This was very dissapointing as 57% is an extremely unreliable score.
 
 My initial plan on predicting global_sales with only 4 columns was proven not effective as I would have like to believe and this highlighted a severe problem with my models and the way I was utlizing them. In the future I would have adjusted the feature 4 columns I trained the data with and experiented on tesitng other columns like rank, JP_sales, etc. I am also interested in finding other data sets on Kaggle which follows the same theme as my original data set in hopes of finding more indiction on training a good model. 
 ## Summary
-This project is focused on testing and learning new regression models which is something I have expereinced when creating these models. Despite that I still have a lot to learn as shown from my results as the best result I can get is a 57% accuracy which is unreliable.
+This project is focused on testing and learning new regression models which is something I have expereinced when creating these models. Despite that I still have a lot to learn as shown from my results as the best result I can get is a 77% accuracy for the first 1000 rows which is unreliable.
 
-Even though my attempt of training a model with selected columsn failed to predict a value with high accuracy, it taught me a lot about regression models and how I need to take a different approach on doing such as trying different model training library and even pipelines.
+Even though my attempt of training a model with selected columsn failed to predict a value with high accuracy while utilizing the whole dataset, it taught me a lot about regression models and how I need to take a different approach on doing such as trying different model training library and different ideas.
 ## References
 [kaggle](https://www.kaggle.com/gregorut/videogamesales) 
