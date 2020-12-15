@@ -15,7 +15,8 @@ The data has over 16000 rows of videogames filled with 11 columns which contain 
 The tools I used was:\
 -NumPy\
 -Pandas\
--Schkit-learn 
+-Schkit-learn\
+-Jupyrer
 
 Within Sckit-learn:\
 -LinearRegression\
